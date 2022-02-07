@@ -14,5 +14,7 @@ app.use(express.json());
 
 app.use('/api', indexRouter);
 app.use('/api/todos', todosRouter);
-
+app.get('/hello', (req, res) => {
+  res.send('Hello World');
+});
 module.exports = app;
