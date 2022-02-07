@@ -1,0 +1,4 @@
+sudo docker exec -it af8 bash
+mongo -u root -p example
+use the_database
+db.todos.insertOne({"text": "Increase the number of tools in my toolbelt", "done": false})
