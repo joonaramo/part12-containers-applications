@@ -8,7 +8,7 @@ RUN npm ci
 
 CMD ["CI=true", "npm", "test"]
 
-ENV REACT_APP_BACKEND_URL http://localhost:3000
+ENV REACT_APP_BACKEND_URL http://localhost:5000
 
 RUN npm run build
 

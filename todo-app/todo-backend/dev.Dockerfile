@@ -10,4 +10,4 @@ ENV DEBUG=docker:*
 
 USER node
 
-CMD npm start
+CMD npm run dev
